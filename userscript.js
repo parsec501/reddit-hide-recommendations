@@ -21,6 +21,7 @@ function hide_recommendations() {
     "Because you've shown interest in this community",
     "Popular near you",
     "Suggested",
+    "Popular on Reddit right now"
   ];
  
   // Find all elements with the data-testid attribute
