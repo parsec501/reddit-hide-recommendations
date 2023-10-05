@@ -6,7 +6,7 @@
 // @description:de Entfernt alle empfohlenen Beiträge von Communities, die man nicht abonniert hat, aus der Reddit-Timeline.
 // @match  https://www.reddit.com/
 // @match  https://www.reddit.com/r/*
-// @version  1.0
+// @version  1.0.2
 // @license Unlicense
 // @grant    none
 // @run-at document-start
@@ -21,7 +21,8 @@ function hide_recommendations() {
     "Because you've shown interest in this community",
     "Popular near you",
     "Suggested",
-    "Popular on Reddit right now"
+    "Popular on Reddit right now",
+    "Because you visited this community before"
   ];
  
   // Find all elements with the data-testid attribute
